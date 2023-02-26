@@ -1,0 +1,38 @@
+#demo1:hover{
+    transform:scale(1.15);
+}
+#demo1{
+    transition:1s;
+}
+#gif:hover{
+    transform:scale(1.15);
+}
+#gif{
+    transition:1s;
+}
+.social{
+    text-align: center;
+    color: whitesmoke;
+}
+.vid:hover{
+transform:scale(1.10);
+}
+.vid{
+    transition: 3s;
+    margin-left:-10pt;
+}
+.car{
+    margin-left:10pt;
+}
+@media screen and (max-width: 600px){
+.car
+   { margin-left:6pt;
+    width:100%;}
+
+}
+@media screen and (max-width: 600px){
+    .vid{
+        width:100%;
+        margin-left:-6pt;
+    }
+}

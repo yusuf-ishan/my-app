@@ -1,0 +1,142 @@
+@media only screen and (max-width: 600px) {
+  .App 
+    {text-align: center;}
+   
+  }
+  @media only screen and (max-width: 600px) {
+  .App-logo 
+    {height: 40vmin;
+    pointer-events: none;}
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #93afe9;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  .app-body{
+    text-align: center;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  
+  }
+  @media only screen and (max-width: 600px) {
+  .navb
+    {margin-left: 5pt;}
+  }
+  #img1{
+    margin-left: 10pt;
+  }
+  .img{
+    width:30px;
+    ;
+  }
+  .nav1{
+    margin-left:25pt;
+    }
+  .nav2{
+    margin-left:20pt;
+  }
+  .nav3{
+    margin-left:20pt;
+  }
+  .car1{
+    width:100%;
+    margin-left:5pt;
+    transition:3s ;
+  }
+  .car1:hover{
+      transform:scale(1.10);
+    }
+  .car:hover{
+  transform:scale(1.10);
+  }
+  .car{
+    transition:3s;
+    width:100%;
+    margin-left:-5pt;
+  }
+  #gal:hover{
+    transform:scale(1.05);
+  }
+  #gal{
+    transition:1s;
+  }
+  .social{
+    color:#000000;
+    width:20px;
+    font-size: 2rem;
+  }
+  @media only screen and (max-width: 600px){
+    .sug{font-size:medium;
+      background-color: #93afe9;
+      color: white;
+    width: 100%;
+    border:none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  ;}
+  .em{
+       background-color: #93afe9;
+      color: white;
+    width: 100%;
+    border:none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  }
+  }
+  @media only screen and (min-width: 600px) 
+  { .sug{font-size:medium;}}
+  .sub{
+    background-color: rgb(79, 22, 79);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  
+  }
+  @media only screen and (min-width: 600px) {
+    .us{
+      width:100%;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+    
+  }
+  
+  
