@@ -1,0 +1,11 @@
+[functions]
+  directory = "my_functions"
+  
+[[redirects]]
+
+from="/react/my-app"
+to="/Cars"
+
+[[redirects]]
+from="/Cars"
+to="/react/my-app"
