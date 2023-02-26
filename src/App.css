@@ -56,18 +56,18 @@
   }
   .car1{
     width:100%;
-    margin-left:20pt;
+    margin-left:-25pt;
     transition:3s ;
   }
   .car1:hover{
       transform:scale(1.10);
     }
-  .car:hover{
+  .car2:hover{
   transform:scale(1.10);
   }
-  .car{
+  .car2{
     transition:3s;
-    width:100%;
+   
   }
 
   #gal:hover{
@@ -124,6 +124,7 @@
     border-radius: 12px;
   
   }
+
   @media only screen and (min-width: 600px) {
     .us{
       width:100%;
@@ -140,17 +141,24 @@
   }
   @media only screen and (max-width: 600px) {
     .car1{
-      margin-left:-6pt;
+      margin-left:-3pt;
     }
    
   }
-  @media only screen and (max-width: 600px) {
-  .car{
-    margin-left:5pt;
-  }
-}
+
 @media only screen and (max-width: 600px) {
   #gal{
     width:100%;
   }
 }
+
+.car2{
+  width: 100%;
+  margin-left:20pt;
+}
+@media only screen and (max-width: 600px) {
+  .car2{
+    margin-left:2pt;
+  }
+}
+

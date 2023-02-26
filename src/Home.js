@@ -44,8 +44,32 @@ function H1() {
         <Container>
         <Row>
           <Col>
-  
-        <Carousel className='car' id='1' style={{marginLeft:'-20pt'}} controls={false}>
+          <Carousel className='car1' controls={false}>
+          <Carousel.Item className='s2' interval={3000}>
+            <img
+              className="d-block w-100"
+              src={require("./s6.jpg")}
+              alt="First slide"/>
+
+          </Carousel.Item>
+          <Carousel.Item className='s3' interval={3000}>
+            <img
+              className="d-block w-100"
+              src={require("./s8.jpg")}
+              alt="Second slide" />
+
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img
+              className="d-block w-100"
+              src={require("./dd.jpg")}
+              alt="Third slide" />
+          </Carousel.Item>
+        </Carousel>
+       
+        </Col>
+        <Col>
+        <Carousel className='car2' controls={false}>
           <Carousel.Item  className='s2' interval={3000}>
             <img
               className="d-block w-100" 
@@ -68,30 +92,6 @@ function H1() {
           </Carousel.Item>
         </Carousel>
       
-        </Col>
-        <Col>
-                <Carousel className='car1' controls={false}>
-          <Carousel.Item className='s2' interval={3000}>
-            <img
-              className="d-block w-100"
-              src={require("./s6.jpg")}
-              alt="First slide"/>
-
-          </Carousel.Item>
-          <Carousel.Item className='s3' interval={3000}>
-            <img
-              className="d-block w-100"
-              src={require("./s8.jpg")}
-              alt="Second slide" />
-
-          </Carousel.Item>
-          <Carousel.Item interval={3000}>
-            <img
-              className="d-block w-100"
-              src={require("./dd.jpg")}
-              alt="Third slide" />
-          </Carousel.Item>
-        </Carousel>
         </Col>
 
       </Row>

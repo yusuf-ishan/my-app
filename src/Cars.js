@@ -48,7 +48,7 @@ function Cars() {
 					<img alt='' className='vid' src={require("./100.gif")} style={{width:'100%',height:'100%'}} />
 					</Col>
 					<Col>
-					<Carousel className='car'  controls={false}>
+					<Carousel className='car21'  controls={false}>
           <Carousel.Item  className='s2' interval={3000}>
             <img 
               className="d-block w-100" 
