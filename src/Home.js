@@ -26,7 +26,7 @@ function H1() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
       <li>
-        <a style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} href="http://localhost:3002/react/my-app">HomePage</a>
+        <Link style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} to="./">HomePage</Link>
       </li>
         <li >
             <Link to="/Cars" style={{textDecoration:'none',color:'black',fontWeight:'500',marginLeft:'30pt'}} target={'_blank'} rel='noreferrer'>Available Cars</Link>

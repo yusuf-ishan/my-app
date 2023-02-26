@@ -8,6 +8,10 @@ import Cars from './Cars';
 import './App.css';
 const router = createBrowserRouter ([
   {
+    path:"/",
+    element:<H1 />
+  },
+  {
     path:"/react/my-app/",
     element:<H1 />
   },
