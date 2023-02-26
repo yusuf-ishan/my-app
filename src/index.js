@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import H1 from './Home';
 import Cars from './Cars';
+import './App.css';
 const router = createBrowserRouter ([
   {
     path:"/react/my-app/",

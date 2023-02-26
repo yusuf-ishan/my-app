@@ -45,7 +45,7 @@ function H1() {
         <Row>
           <Col>
   
-        <Carousel className='car' controls={false}>
+        <Carousel className='car' style={{marginLeft:'-20pt'}} controls={false}>
           <Carousel.Item  className='s2' interval={3000}>
             <img
               className="d-block w-100" 
@@ -116,9 +116,6 @@ function H1() {
 <li>Mercedes to drop EQ brand</li>
 </ul>
 
-            <a style={{ cursor: 'pointer' }}>
-              <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
-            </a>
           </div>
         </MDBCol>
 
@@ -135,9 +132,7 @@ automotive-news-video-2023-indy-autonomous-challenge">
 	<li>Head-to-Head racing</li>
 	<li>University teams compete</li>
   </ul>
-            <a style={{ cursor: 'pointer' }} >
-              <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
-            </a>
+            
           </div>
         </MDBCol>
 
@@ -149,9 +144,7 @@ automotive-news-video-2023-indy-autonomous-challenge">
             <hr/>
             <h3 style={{color:'whitesmoke',marginLeft:'',fontWeight:'350'}}>January-13-2023</h3>
 		        <p style={{color:'whitesmoke',marginLeft:''}}>Tesla cuts prices across its lineup. plus, a look at the benifets of collaboration between dealership departments.</p>
-            <a style={{ cursor: 'pointer' }} >        
-              <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
-            </a>
+           
           </div>
         </MDBCol>
       </MDBRow>
@@ -177,7 +170,7 @@ automotive-news-video-2023-indy-autonomous-challenge">
 <footer style={{backgroundColor:'#ffffff',height:'13vh'}}>
   <Container className='social'>
     <a target="_blank" rel='noreferrer' href='https://www.instagram.com/yusufishan3/'><FontAwesomeIcon icon={faInstagram}/></a>
-    <a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UC5OqoDo69SO2OQBPyBag-rQ'><FontAwesomeIcon icon={faYoutube}/></a>
+    <a target="_blank" rel='noreferrer'  href='https://www.youtube.com/channel/UC5OqoDo69SO2OQBPyBag-rQ'><FontAwesomeIcon icon={faYoutube}/></a>
 <a target="_blank" rel='noreferrer' href='https://wa.me/+93766618861/'><FontAwesomeIcon icon={faWhatsapp}/></a>
 
 <h1 style={{color:'black',fontSize:'10pt'}}>Copyrights Reserved 2023:Car Geek Automobile Showroom</h1>
