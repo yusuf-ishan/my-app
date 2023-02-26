@@ -1,40 +1,25 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import logo from './c3.svg';
-import { Button } from '@mui/material';
-import { Nav, Navbar, NavbarBrand, NavItem } from 'react-bootstrap';
+import { Navbar, NavbarBrand } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
-import { textAlign } from '@mui/system';
-import ReactDOM from 'react-dom';
-import { MDBIcon } from 'mdb-react-ui-kit'
 import {
-  MDBContainer,
   MDBCol,
   MDBRow,
-  MDBModal,
-  MDBModalBody,
-  MDBModalFooter,
-  MDBBtn,
-  MDBModalDialog,
-  MDBModalContent,
 } from 'mdb-react-ui-kit'
-import { FaFacebook } from 'react-social-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import './cars.css'
 import { Link } from 'react-router-dom';
-import H1 from './Home';
 function Cars() {
     return (
 		<div>
 		<body style={{backgroundColor:'whitesmoke'}}>
 			<Navbar  bg='dark' variant='dark' expand='lg'>
 				<NavbarBrand>
-					<img src={require("./logo.jpg")} class="rounded-pill" style={{ width: '40px' }} />
+					<img alt='' src={require("./logo.jpg")} class="rounded-pill" style={{ width: '40px' }} />
 					</NavbarBrand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
@@ -60,12 +45,12 @@ function Cars() {
 				<Container>
 				<Row>
 					<Col>
-					<img className='vid' src={require("./100.gif")} style={{width:'100%',height:'100%'}} />
+					<img alt='' className='vid' src={require("./100.gif")} style={{width:'100%',height:'100%'}} />
 					</Col>
 					<Col>
 					<Carousel className='car' controls={false}>
           <Carousel.Item  className='s2' interval={3000}>
-            <img
+            <img 
               className="d-block w-100" 
               src={require("./cc.jpg")}
               alt="First slide"/>
@@ -95,15 +80,15 @@ function Cars() {
 		<Container fluid>
 		<MDBRow>
 			<MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-				<img src={require("./lam.jpg")} className='w-100'/>
+				<img alt='' src={require("./lam.jpg")} className='w-100'/>
 				<h5 class="alert alert-info">Beautiful Bodykit with 700hp engine and 820nm of tourqe, it's the great choice for a car enthusiast</h5>
 			</MDBCol>
 			<MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-			<img src={require("./mc.jpg")} className='w-100'/>
+			<img alt='' src={require("./mc.jpg")} className='w-100'/>
 			<h5 class="alert alert-info">One of the greatest cars ever produced. Only 50 of these beauties are made</h5>
 			</MDBCol>
 			<MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-			<img src={require("./royce.jpg")} className='w-100'/>
+			<img alt='' src={require("./royce.jpg")} className='w-100'/>
 			<h5 class="alert alert-info">World's most luxurious car avalibale for classy men and women</h5> 
 			</MDBCol>
 		</MDBRow>
@@ -114,15 +99,15 @@ function Cars() {
 		<Container fluid>
 		<MDBRow>
 			<MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-				<img src={require("./lx.jpg")} className='w-100'/>
+				<img alt='' src={require("./lx.jpg")} className='w-100'/>
 				
 			</MDBCol>
 			<MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-			<img src={require("./urus.jpg")} className='w-100'/>
+			<img alt='' src={require("./urus.jpg")} className='w-100'/>
 			
 			</MDBCol>
 			<MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-			<img src={require("./au.jpg")} className='w-100'/>
+			<img alt='' src={require("./au.jpg")} className='w-100'/>
 			
 			</MDBCol>
 		</MDBRow>
@@ -136,9 +121,9 @@ function Cars() {
 		
 		<footer style={{ backgroundColor: '#000000', height: '13vh' }}>
 				<Container className='social'>
-					<a target="_blank" href='https://www.instagram.com/yusufishan3/'><FontAwesomeIcon icon={faInstagram} /></a>
-					<a target="_blank" href='https://www.youtube.com/channel/UC5OqoDo69SO2OQBPyBag-rQ'><FontAwesomeIcon icon={faYoutube} /></a>
-					<a target="_blank" href='https://wa.me/+93766618861/'><FontAwesomeIcon icon={faWhatsapp} /></a>
+					<a target="_blank" rel='noreferrer' href='https://www.instagram.com/yusufishan3/'><FontAwesomeIcon icon={faInstagram} /></a>
+					<a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UC5OqoDo69SO2OQBPyBag-rQ'><FontAwesomeIcon icon={faYoutube} /></a>
+					<a target="_blank" rel='noreferrer' href='https://wa.me/+93766618861/'><FontAwesomeIcon icon={faWhatsapp} /></a>
 					<h1 style={{ color: 'whitesmoke', fontSize: '10pt' }}>Copyrights Reserved 2023:Car Geek Automobile Showroom</h1>
 				</Container>
 			</footer>

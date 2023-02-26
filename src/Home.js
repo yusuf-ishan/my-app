@@ -1,31 +1,17 @@
 import React from 'react';
 import './App.css';
 import Carousel from 'react-bootstrap/Carousel';
-import logo from './c3.svg';
-import { Button } from '@mui/material';
-import { Nav, Navbar, NavbarBrand, NavItem } from 'react-bootstrap';
+import { Navbar, NavbarBrand } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
-import { textAlign } from '@mui/system';
-import ReactDOM from 'react-dom';
-import { MDBIcon } from 'mdb-react-ui-kit'
 import {
-  MDBContainer,
   MDBCol,
   MDBRow,
-  MDBModal,
-  MDBModalBody,
-  MDBModalFooter,
-  MDBBtn,
-  MDBModalDialog,
-  MDBModalContent,
 } from 'mdb-react-ui-kit'
-import { FaFacebook } from 'react-social-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom';
 
 function H1() {
@@ -35,7 +21,7 @@ function H1() {
    
       <Navbar className='nav' bg="light" variant='light' expand="lg">
       <NavbarBrand>
-      <img id="img1" className='rounded-pill' style={{width:"40px"}} src={require("./logo.jpg")}/>
+      <img alt='' id="img1" className='rounded-pill' style={{width:"40px"}} src={require("./logo.jpg")}/>
       </NavbarBrand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
@@ -43,7 +29,7 @@ function H1() {
         <a style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} href="http://localhost:3002/react/my-app">HomePage</a>
       </li>
         <li >
-            <Link to="/Cars" style={{textDecoration:'none',color:'black',fontWeight:'500',marginLeft:'30pt'}} target={'_blank'}>Available Cars</Link>
+            <Link to="/Cars" style={{textDecoration:'none',color:'black',fontWeight:'500',marginLeft:'30pt'}} target={'_blank'} rel='noreferrer'>Available Cars</Link>
         </li>
       <li>
         <a style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} href='#About Us'>About Us</a>
@@ -119,8 +105,8 @@ function H1() {
         <MDBRow>
         <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
           <div className='bg-image hover-overlay ripple shadow-1-strong rounded'>
-          <a target="_blank" href="https://www.autonews.com/video/first-shift/">
-            <img id='gal' src={require("./EV.jpg")} className='w-100' />
+          <a rel='noreferrer' target="_blank" href="https://www.autonews.com/video/first-shift/">
+            <img alt='' id='gal' src={require("./EV.jpg")} className='w-100' />
             </a>
             <hr/>
             <h3 style={{color:'whitesmoke',textAlign:'left',marginLeft:'',fontWeight:'350'}}>U.S.-made EVs rule the market</h3>
@@ -138,9 +124,9 @@ function H1() {
 
         <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
           <div className='bg-image hover-overlay ripple shadow-1-strong rounded'>
-          <a target="_blank" href="https://www.autonews.com/video/automotive-news-video/
+          <a target="_blank" rel='noreferrer' href="https://www.autonews.com/video/automotive-news-video/
 automotive-news-video-2023-indy-autonomous-challenge">
-            <img id='gal' src={require("./indy.jpg")} className='w-100' />
+            <img alt='' id='gal' src={require("./indy.jpg")} className='w-100' />
             </a>
             <hr/>
             <h3 style={{color:'whitesmoke',fontWeight:'300',marginLeft:'',textAlign:'left'}}>Indy Autonomous Challenge</h3>
@@ -157,8 +143,8 @@ automotive-news-video-2023-indy-autonomous-challenge">
 
         <MDBCol lg={4} md={12} className='mb-4 mb-lg-0' >
           <div className='bg-image hover-overlay ripple shadow-1-strong rounded'>
-          <a target="_blank" href="https://www.autonews.com/daily-drive-podcast/daily-drive-podcast-january-13-2023">
-            <img id='gal' style={{marginLeft:'-10pt',marginRight:'-10pt'}} src={require("./tesla.jpg")} className='w-100' />
+          <a target="_blank" rel='noreferrer' href="https://www.autonews.com/daily-drive-podcast/daily-drive-podcast-january-13-2023">
+            <img alt='' id='gal' style={{marginLeft:'-10pt',marginRight:'-10pt'}} src={require("./tesla.jpg")} className='w-100' />
             </a>
             <hr/>
             <h3 style={{color:'whitesmoke',marginLeft:'',fontWeight:'350'}}>January-13-2023</h3>
@@ -190,9 +176,9 @@ automotive-news-video-2023-indy-autonomous-challenge">
 <br/>
 <footer style={{backgroundColor:'#ffffff',height:'13vh'}}>
   <Container className='social'>
-    <a target="_blank" href='https://www.instagram.com/yusufishan3/'><FontAwesomeIcon icon={faInstagram}/></a>
-    <a target="_blank" href='https://www.youtube.com/channel/UC5OqoDo69SO2OQBPyBag-rQ'><FontAwesomeIcon icon={faYoutube}/></a>
-<a target="_blank" href='https://wa.me/+93766618861/'><FontAwesomeIcon icon={faWhatsapp}/></a>
+    <a target="_blank" rel='noreferrer' href='https://www.instagram.com/yusufishan3/'><FontAwesomeIcon icon={faInstagram}/></a>
+    <a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UC5OqoDo69SO2OQBPyBag-rQ'><FontAwesomeIcon icon={faYoutube}/></a>
+<a target="_blank" rel='noreferrer' href='https://wa.me/+93766618861/'><FontAwesomeIcon icon={faWhatsapp}/></a>
 
 <h1 style={{color:'black',fontSize:'10pt'}}>Copyrights Reserved 2023:Car Geek Automobile Showroom</h1>
 

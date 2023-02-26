@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import H1 from './Home';
 import Cars from './Cars';
-import { Nav } from 'react-bootstrap';
 const router = createBrowserRouter ([
   {
     path:"/react/my-app/",
