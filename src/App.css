@@ -85,7 +85,7 @@
     .sug{font-size:medium;
       background-color: #93afe9;
       color: white;
-    width: 100%;
+    width: 95%;
     border:none;
     padding: 10px;
     text-align: center;
@@ -98,7 +98,7 @@
   .em{
        background-color: #93afe9;
       color: white;
-    width: 100%;
+    width: 90%;
     border:none;
     padding: 10px;
     text-align: center;
@@ -138,6 +138,19 @@
     }
     
   }
- 
-  
-  
+  @media only screen and (max-width: 600px) {
+    .car1{
+      margin-left:-6pt;
+    }
+   
+  }
+  @media only screen and (max-width: 600px) {
+  .car{
+    margin-left:5pt;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #gal{
+    width:100%;
+  }
+}

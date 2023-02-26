@@ -45,11 +45,10 @@ function H1() {
         <Row>
           <Col>
   
-        <Carousel className='car' style={{marginLeft:'-20pt'}} controls={false}>
+        <Carousel className='car' id='1' style={{marginLeft:'-20pt'}} controls={false}>
           <Carousel.Item  className='s2' interval={3000}>
             <img
               className="d-block w-100" 
-              
               src={require("./s2.jpg")}
               alt="First slide"/>
 
@@ -104,7 +103,7 @@ function H1() {
         <Container fluid>
         <MDBRow>
         <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-          <div className='bg-image hover-overlay ripple shadow-1-strong rounded'>
+          <div id='div' className='bg-image hover-overlay ripple shadow-1-strong rounded'>
           <a rel='noreferrer' target="_blank" href="https://www.autonews.com/video/first-shift/">
             <img alt='' id='gal' src={require("./EV.jpg")} className='w-100' />
             </a>
