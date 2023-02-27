@@ -29,7 +29,7 @@ function H1() {
         <Link style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} to="./">HomePage</Link>
       </li>
         <li >
-            <Link to="/Cars" style={{textDecoration:'none',color:'black',fontWeight:'500',marginLeft:'30pt'}} rel='noreferrer'>Available Cars</Link>
+            <Link to="/Cars" style={{textDecoration:'none',color:'black',fontWeight:'500',marginLeft:'30pt'}}  rel='noreferrer'>Available Cars</Link>
         </li>
       <li>
         <a style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} href='#About Us'>About Us</a>
