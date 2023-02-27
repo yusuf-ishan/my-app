@@ -26,6 +26,7 @@ transform:scale(1.10);
 .vid{
     transition: 3s;
     margin-left:-10pt;
+    width:100%;
 }
 .car21{
     margin-left:10pt;
