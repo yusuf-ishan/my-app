@@ -45,7 +45,7 @@ function Cars() {
 				<Container>
 				<Row>
 					<Col>
-					<video controls autoPlay muted loop>
+					<video className='vid' controls autoPlay muted loop>
 						<source src={require("./sh.mp4")} type='video/mp4' />
 						</video>
 					</Col>
