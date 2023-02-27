@@ -45,7 +45,9 @@ function Cars() {
 				<Container>
 				<Row>
 					<Col>
-					<img alt='' className='vid' src={require("./100.gif")} style={{width:'100%',height:'100%'}} />
+					<video controls autoPlay muted loop>
+						<source src={require("./sh.mp4")} type='video/mp4' />
+						</video>
 					</Col>
 					<Col>
 					<Carousel className='car21'  controls={false}>
