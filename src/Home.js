@@ -12,7 +12,7 @@ import {
 } from 'mdb-react-ui-kit'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { Link } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 function H1() {
   return (
@@ -27,10 +27,10 @@ function H1() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
       <li>
-        <Link style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} to="./">HomePage</Link>
+        <LinkContainer style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} to="./">HomePage</LinkContainer>
       </li>
         <li >
-            <Link to="/Cars" style={{textDecoration:'none',color:'black',fontWeight:'500',marginLeft:'30pt'}}  rel='noreferrer'>Available Cars</Link>
+            <LinkContainer to="/Cars" style={{textDecoration:'none',color:'black',fontWeight:'500',marginLeft:'30pt'}} target="_blank"  rel='noreferrer'>Available Cars</LinkContainer>
         </li>
       <li>
         <a style={{textDecoration:'none', color:'black',fontWeight:'500',marginLeft:'30pt'}} href='#About Us'>About Us</a>
