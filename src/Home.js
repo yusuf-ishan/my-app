@@ -23,7 +23,7 @@ function H1() {
       <NavbarBrand>
       <img alt='' id="img1" className='rounded-pill' style={{width:"40px"}} src={require("./logo.jpg")}/>
       </NavbarBrand>
-      <li>Hafiz</li>
+    
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
       <li>
