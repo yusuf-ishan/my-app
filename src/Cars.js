@@ -12,7 +12,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import './cars.css'
-import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
 function Cars() {
     return (
 		<div>
@@ -25,7 +25,7 @@ function Cars() {
 					<Navbar.Collapse id="basic-navbar-nav">
 					
 							<li  style={{listStyleType:'none',marginLeft:'30pt'}} >
-							<LinkContainer to="../react/my-app" style={{textDecoration:'none',color:'gray'}}>Home</LinkContainer>
+							<Link to="../react/my-app" style={{textDecoration:'none',color:'gray'}}>Home</Link>
 							</li>
 							<li style={{listStyleType:'none',marginLeft:'30pt'}} >
 								<a style={{textDecoration:'none',color:'gray'}} href="#instock">In Stock</a>
