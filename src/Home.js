@@ -37,7 +37,6 @@ function H1() {
       </li>
       </Navbar.Collapse>
     </Navbar>
-  
       <body className='app-body'>
         <br />
               <h1 style={{color:'whitesmoke'}}>Welcome to Car Geek Automobile Showroom</h1>
