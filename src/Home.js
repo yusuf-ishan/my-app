@@ -18,7 +18,7 @@ function H1() {
   return (
     <>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-   
+    <button onClick={document.getElementById('body').backgroundColor='black'}>dark mode</button>
       <Navbar className='nav' bg="light" variant='light' expand="lg">
       <NavbarBrand>
       <img alt='' id="img1" className='rounded-pill' style={{width:"40px"}} src={require("./logo.jpg")}/>
