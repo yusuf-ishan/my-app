@@ -38,7 +38,7 @@ function H1() {
       </Navbar.Collapse>
     </Navbar>
       <body id='body' style={{backgroundImage:'linear-gradient(to right, #0f0c29, #302b63, #24243e)'}}  className='app-body'>
-      <button onClick={document.getElementById("body").style.backgroundImage='#000'}>dark mode</button>
+      
         <br />
               <h1 style={{color:'whitesmoke'}}>Welcome to Car Geek Automobile Showroom</h1>
               <br/>
@@ -177,6 +177,7 @@ automotive-news-video-2023-indy-autonomous-challenge">
 
 </Container>
 </footer>
+<button onClick={document.getElementById("body").style.backgroundImage='#000'}>dark mode</button>
           </body>
     </>
   );
