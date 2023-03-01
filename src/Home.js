@@ -177,9 +177,9 @@ automotive-news-video-2023-indy-autonomous-challenge">
 
 </Container>
 </footer>
-
           </body>
-          <button onClick={document.getElementById("hop").style.backgroundImage='#000000'}>dark mode</button>
+          
+         
     </>
   );
 }
