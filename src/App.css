@@ -31,7 +31,7 @@
   }
   .app-body{
     text-align: center;
-    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    
   
   }
   @media only screen and (max-width: 600px) {
@@ -160,5 +160,13 @@
   .car2{
     margin-left:2pt;
   }
+}
+
+.social{
+  margin: auto;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap:5px;
 }
 

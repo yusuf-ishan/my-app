@@ -135,8 +135,7 @@ automotive-news-video-2023-indy-autonomous-challenge">
             
           </div>
         </MDBCol>
-
-        <MDBCol lg={4} md={12} className='mb-4 mb-lg-0' >
+                <MDBCol lg={4} md={12} className='mb-4 mb-lg-0' >
           <div className='bg-image hover-overlay ripple shadow-1-strong rounded'>
           <a target="_blank" rel='noreferrer' href="https://www.autonews.com/daily-drive-podcast/daily-drive-podcast-january-13-2023">
             <img alt='' id='gal' style={{marginLeft:'-10pt',marginRight:'-10pt'}} src={require("./tesla.jpg")} className='w-100' />
@@ -156,7 +155,7 @@ automotive-news-video-2023-indy-autonomous-challenge">
       <p className='us' style={{fontSize:'14pt',fontWeight:400,color:'whitesmoke'}}>Country's Biggest Showroom now open 24/7, we sell above average cars in below average prices. we are one of the largest independent dealership groups in country and the continent, so you can either select a newly released 2023 car or an affordable used 2012 car. get a special discount on 4th and 5th march 2023 by using the promo code from your entry ticket.</p>
       <br/>
       <br/>
-      <form>
+      <form method='POST ' action='server.php'>
       <h4 style={{fontSize:'10pt',fontFamily:'lovina',color:'whitesmoke'}}>Tell us how we can Improve?</h4>
 	<input className='sug' type="text" size="80" style={{height:'50px'}}/>
 	<br/><br/>
@@ -165,17 +164,21 @@ automotive-news-video-2023-indy-autonomous-challenge">
 	<br/><br/>
 	<input className='sub' type="submit"/>
       </form>
+      
+
       <br/>
 <br/>
-<footer style={{backgroundColor:'#ffffff',height:'13vh'}}>
-  <Container className='social'>
+<footer className='foot' style={{backgroundColor:'#ffffff',height:'13vh'}}>
+  <Container className='social1'>
+    <div className='social'>
     <a target="_blank" rel='noreferrer' href='https://www.instagram.com/yusufishan3/'><FontAwesomeIcon icon={faInstagram}/></a>
     <a target="_blank" rel='noreferrer'  href='https://www.youtube.com/channel/UC5OqoDo69SO2OQBPyBag-rQ'><FontAwesomeIcon icon={faYoutube}/></a>
 <a target="_blank" rel='noreferrer' href='https://wa.me/+93766618861/'><FontAwesomeIcon icon={faWhatsapp}/></a>
-
+</div>
 <h1 style={{color:'black',fontSize:'10pt'}}>Copyrights Reserved 2023:Car Geek Automobile Showroom</h1>
 
 </Container>
+
 </footer>
           </body>
           
